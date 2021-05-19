@@ -5,7 +5,8 @@ int main()
 {
     double a,b,p;
     cout << "Enter two numbers: ";
-    cin >> a >> b;
+    cin >> a>>endl;
+    cin>>b>>endl;
     p = a *  b;  
     cout << "Product = " <<p;   
     return 0;
