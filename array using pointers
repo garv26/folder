@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int *p,i;
+    int arr[5];
+    cout<<"Enter Elements";
+    for(i=0;i<5;i++)
+    {
+        cin>>arr[i];
+    }
+  p=arr;
+  cout<<"Entered Elements";
+  for(i=1;i<=5;i++)
+  {
+      cout<<*p;
+      p++;
+  }
+    return 0;
+}
